@@ -8,17 +8,16 @@
 body{
     font-family: "Inter", sans-serif;
 }
-/* body{
-    font-family: inter, open ;
-} */
+
 
 header .hero .hero-content .notes-features .The-solution .ready-section{
     max-width: 1600px;
     margin: 0 auto;
 }
+/* Navbar */
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color:#ffffff;
 height:92px;
 align-items: center;
@@ -65,7 +64,7 @@ color: #ffffff;
 color: #ffffff;
 
 }
-
+/* Banner */
 .hero {
     background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
     background-size: cover;
@@ -82,8 +81,8 @@ color: #ffffff;
 }
 
 .badge {
-    width: 210px;
-    display: inline-flex;
+    width: 250px;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 4px;
@@ -93,6 +92,12 @@ color: #ffffff;
     background-color:rgba(255, 255, 255, 1);
     color:  #30b868;
     margin-bottom: 25px;
+}
+.early{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -119,7 +124,7 @@ color: #ffffff;
 
 .hero p {
     font-size: 18px;
-    color: rgba(255, 255, 255, 1);
+    color:#dcebf7 ;
     margin-bottom: 35px;
 }
 
@@ -135,7 +140,12 @@ color: #ffffff;
     width: 20px;
     height: auto;
 }
-
+.btn-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
 .btn-primary {
     display: inline-block;
     background: #22c55e;
@@ -255,6 +265,7 @@ background: rgba(255, 255, 255, 1);}
   line-height: 1.6; 
   color: #627382;
 }
+/* THE SOLUTION */
 .The-solution{
 
 display: flex;
@@ -319,7 +330,11 @@ font-weight: 500;
 line-height: 20px;
 text-align: left;
     }
-  
+    .list{
+        display: flex;
+        align-items: center;
+    }
+  /* Ready section */
     .ready-section{
 
 
@@ -333,18 +348,9 @@ padding:  20px 120px 0px 120px;
 margin-bottom: 20px;
 }
 
-    .ready-conyeiner{
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-gap: 24;
-padding: 80px 40px 80px 40px;
-
-
-    }
+    
     .ready-conteiner h1{
-        /* Ready to think more clearly? */
+       
 color: #001931;
 font-style: Bold;
 font-size: 40px;
@@ -367,32 +373,29 @@ line-height: 24px;
 margin-bottom: 20px;
 text-align: center;
     }
- .ready-conteiner .btn{
-    /* display: flex;
+  .btn{
+    display: flex;
     justify-content: center;
-    margin-bottom: 24x; */
-    
+   align-items: center;
+    gap: 5px;
  }
  .btn:hover{
  background: #16a34a;
   }
   footer{
-    /* background-color: #64748b; */
+   
   background: var(--Style, rgba(0, 25, 49, 1));
 /* Footer */
 
-/* Auto layout */
-/* display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start; */
+justify-content: space-around;
+align-items: flex-start; 
 gap: 80;
-/* padding: 120px 120px 30px 120px; */
+
 }
 
   .ftr-logo{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     padding: 120px 120px 134px 120px;
@@ -402,12 +405,23 @@ gap: 80;
   }
   .f-icon{
     color: #000001;
-    border-radius: 12px;
+    
     background: rgba(255, 255, 255, 1);
-    padding: 4 4.5 4.5 4;
+    
+    width: 30px;
+    height: 30px;
+    border-radius: 5;
+  }
+  .last-p{
+    color: #627382;
+
   }
   footer p {
-    color: #fff;
+    color: #627382;
     text-align: center;
     padding-bottom: 20px;
+  }
+  .f-icon-conteiner{
+    display: flex;
+    gap: 8px;
   }
