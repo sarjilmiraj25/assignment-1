@@ -136,7 +136,7 @@ color: #ffffff;
     flex-wrap: wrap;
     margin-bottom: 70px;
 }
-.hero-actions #arrowright{
+.hero-actions .right{
     width: 20px;
     height: auto;
 }
@@ -162,7 +162,7 @@ padding: 12px 16px ;
 
 
 }
-   .btn-primary .arrowright{
+   .btn-primary .right{
     display: inline-block;
    }
 
@@ -206,8 +206,11 @@ gap: 10;
 }
 
 .notes-text h2 {
-  font-size: 42px;
-  font-weight: 700;
+    font-size: 35px; 
+     font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 16px;
+
  
 }
 .notes-text p {
@@ -217,7 +220,7 @@ gap: 10;
 }
 
 
-.notes-features-card-conteiner {
+.notes-features-card-container {
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -226,7 +229,7 @@ padding: 24px;
 
 
 }
-.notes-features-card-conteiner .icon{
+.notes-features-card-container .icon{
     background-color: #F95555;
     color: rgba(255, 255, 255, 1);
     border-radius: 20px;
@@ -277,7 +280,7 @@ padding:  20px 120px 0px 120px;
 
 
 }
-.The-solution-conteiner{
+.The-solution-container{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -305,7 +308,7 @@ margin-bottom: 16px;
  .solution-content .brain{
 color: #001931;
 font-style: Bold;
-font-size: 40px;
+font-size: 35px;
 font-weight: 500;
 margin-bottom: 16px;
 
@@ -349,7 +352,7 @@ margin-bottom: 20px;
 }
 
     
-    .ready-conteiner h1{
+    .ready-container h1{
        
 color: #001931;
 font-style: Bold;
@@ -359,13 +362,13 @@ margin-bottom: 16px;
 text-align: center;
     }
 
-    .ready-conteiner .main{
+    .ready-container .main{
 display: flex;
  flex-direction: column;
  color: #627382;
     }
 
-    .ready-conteiner p{
+    .ready-container p{
  color: #627382;
 font-size: 16px;
 font-weight: 400;
@@ -408,8 +411,8 @@ gap: 80;
     
     background: rgba(255, 255, 255, 1);
     
-    width: 30px;
-    height: 30px;
+    width: 13px;
+    height: 13px;
     border-radius: 5;
   }
   .last-p{
@@ -421,7 +424,7 @@ gap: 80;
     text-align: center;
     padding-bottom: 20px;
   }
-  .f-icon-conteiner{
+  .f-icon-container{
     display: flex;
-    gap: 8px;
+    gap: 10px;
   }
